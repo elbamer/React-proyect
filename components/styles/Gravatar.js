@@ -6,5 +6,5 @@ function Gravatar(props){
     return (<img className={props.className} src={`http://gravatar.com/avatar/${hash}?d=identicon`} alt="Avatar"/>);
 
 }
-//richardbkaufman@gmail.com
+
 export default Gravatar;
